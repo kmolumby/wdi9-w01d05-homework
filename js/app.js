@@ -48,3 +48,20 @@ console.log(secondVariable);
   console.log(a + b === c);
   console.log(a * a === d);
   console.log(48 == '48');
+
+//   D. The farm
+// Declare a variable animal. Set it to be either "cow" or something else.
+// Write code that will print out "mooooo" if the it is equal to cow.
+// Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+
+let animal;
+
+const isItACow = () => {
+    if ( animal == "cow" || animal == "Cow"){
+        return 'moo';
+    } else {
+        return 'Hey you\'re not a cow';
+    }
+}
+
+console.log(isItACow('bird'));
