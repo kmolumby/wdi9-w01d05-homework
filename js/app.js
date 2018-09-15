@@ -138,11 +138,11 @@
 // I found a 10. High five!
 
 
-for( let i = 0; i<= 100; i++) {
-    if (i % 5 === 0) {
-        console.log(` I found a ${i}. High five`)
-    } 
-}
+// for( let i = 0; i<= 100; i++) {
+//     if (i % 5 === 0) {
+//         console.log(` I found a ${i}. High five`)
+//     } 
+// }
 
 // Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three.
 // Example Output:
@@ -153,12 +153,33 @@ for( let i = 0; i<= 100; i++) {
 // I found a 9. Three is a crowd
 // I found a 10. High five!
 
-for( let i = 0; i<= 100; i++) {
-    if (i % 5 === 0) {
-        console.log(` I found a ${i}. High five`);
-    } else {
-        if (i % 3 === 0) {
-            console.log (`I found a ${i}. Three is a crowd`);
-        }
-    }
-}
+// for( let i = 0; i<= 100; i++) {
+//     if (i % 5 === 0) {
+//         console.log(` I found a ${i}. High five`);
+//     } else {
+//         if (i % 3 === 0) {
+//             console.log (`I found a ${i}. Three is a crowd`);
+//         }
+//     }
+// }
+
+// D. Savings account
+// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+// Check your work! Your banck_account should have $55 in it.
+// let bankAccount = 0;
+// for ( let i = 1; i <= 10; i++) {
+//   bankAccount = bankAccount + i;
+// }
+// console.log(bankAccount);
+
+// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// Check your work! Your banck_account should have $10,100 in it.
+
+// let bankAccount = 0;
+// for ( i = 1; i<=100; i++){
+//     bankAccount = bankAccount + i
+// }
+
+// bankAccount = bankAccount * 2
+
+// console.log(bankAccount);
