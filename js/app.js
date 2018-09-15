@@ -283,19 +283,43 @@
 
 
 
-const biggieSmalls = (num) => {
-if (num < 100) {
-    console.log("little number");
-} else { 
-    console.log("big number")
-}
+// const biggieSmalls = (num) => {
+// if (num < 100) {
+//     console.log("little number");
+// } else { 
+//     console.log("big number")
+// }
 
-}
+// }
 
-console.log(biggieSmalls(1000));
+// console.log(biggieSmalls(1000));
 
 // Write an if ... else statement that:
 
 // console.log()s "little number" if the number is entered is less than 100
 
 // console.log()s big number if the number is greater than or equal to 100.
+
+// G. Monkey in the Middle
+// Write an if ... else if ... else statement:
+
+// console.log() little number if the number entered is less than 5.
+
+// If the number entered is more than 10, log big number.
+
+// Otherwise, log "monkey". 
+
+
+const monkeyInTheMiddle = (num) => {
+    if (num< 5) {
+        console.log('little number') 
+    } else if (num > 10 ) {
+        console.log('big number');
+    } else {
+        console.log('monkey in the middle')
+    }
+    
+}
+
+console.log(monkeyInTheMiddle(900));
+console.log(monkeyInTheMiddle(2));
