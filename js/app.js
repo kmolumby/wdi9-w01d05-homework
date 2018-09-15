@@ -213,3 +213,8 @@ console.log(sum);
 
 // What real-life thing could you model with an array?
 // A menu could be an example of an array, you have a list of items on the menu
+
+// B. Easy Does It
+// Create an array that contains three quotes and store it in a variable called quotes.
+
+const quotes = ['guiness', 'coors', 'bud', 'odell', 'new belgium']
