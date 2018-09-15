@@ -190,90 +190,112 @@
 // Find the sum of all the multiples of 3 or 5 below 1000. If a previous question you've done has helpful bits of code in it that partially solves this problem, look back at them.
 
 
-let sum = 0;
+// let sum = 0;
 
-for ( let i = 0; i<=1000; i++) {
-    if (i % 3 === 0 || i % 5 === 0) {
-        sum = sum + i
-    }
+// for ( let i = 0; i<=1000; i++) {
+//     if (i % 3 === 0 || i % 5 === 0) {
+//         sum = sum + i
+//     }
+// }
+
+// console.log(sum);
+
+
+// // III. Arrays & Control flow
+
+// // A. Talk about it:
+// // What are the things in an array called?
+// // elements
+
+// // Do Arrays guarantee those things will be in order?
+// // Kind of confusing the way this question is posed but elements have a defined index in the list
+// // so yes it guarantees that the elements will be in a specific order
+
+// // What real-life thing could you model with an array?
+// // A menu could be an example of an array, you have a list of items on the menu
+
+// // B. Easy Does It
+// // Create an array that contains three quotes and store it in a variable called quotes.
+
+// const quotes = ['Get busy living or get busy dying', 'Where there is love there is life.', 'A joke is a very serious thing.']
+
+// // C. Accessing elements
+// // Given the following array 
+
+// const randomThings = [1, 10, "Hello", true]
+
+// // How do you access the 1st element in the array?
+// // randomThings[0];
+
+// // Change the value of "Hello" to "World".
+
+// randomThings[2] = "World"
+
+// console.log(randomThings[2]);
+// // Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+
+// // D. Change values
+// // Given the following array 
+
+// const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+
+// // What would you write to access the 3rd element of the array?
+
+// // ourClass[2];
+
+// // Change the value of "Github" to "Octocat"
+// ourClass[4] = 'Octocat';
+// console.log(ourClass[4]);
+
+// // Add a new element, "Cloud City" to the array.
+
+// ourClass.push('Cloud City');
+
+// console.log(ourClass);
+
+
+// // E. Mix It Up
+// // Given the following array: 
+
+// const myArray = [5, 10, 500, 20]
+
+// // Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+// myArray.push('Egon', 'Yes');
+// console.log(myArray);
+// // Remove the 5 from the beginning of the array.
+// myArray.shift();
+// console.log(myArray);
+
+// // Add the string "Bob Marley" to the beginning of the array.
+// myArray.unshift('Bob Marley');
+// console.log(myArray);
+// // Remove the string of your choise from the end of the array.
+// myArray.pop();
+// console.log(myArray);
+
+// // Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+// // yes it mutated it, mutating means changing or affecting , the .reverse reverses the array
+// myArray.reverse();
+// console.log(myArray);
+
+// F. Biggie Smalls
+// Create a variable that contains an integer.
+
+
+
+const biggieSmalls = (num) => {
+if (num < 100) {
+    console.log("little number");
+} else { 
+    console.log("big number")
 }
 
-console.log(sum);
+}
 
+console.log(biggieSmalls(1000));
 
-// III. Arrays & Control flow
+// Write an if ... else statement that:
 
-// A. Talk about it:
-// What are the things in an array called?
-// elements
+// console.log()s "little number" if the number is entered is less than 100
 
-// Do Arrays guarantee those things will be in order?
-// Kind of confusing the way this question is posed but elements have a defined index in the list
-// so yes it guarantees that the elements will be in a specific order
-
-// What real-life thing could you model with an array?
-// A menu could be an example of an array, you have a list of items on the menu
-
-// B. Easy Does It
-// Create an array that contains three quotes and store it in a variable called quotes.
-
-const quotes = ['Get busy living or get busy dying', 'Where there is love there is life.', 'A joke is a very serious thing.']
-
-// C. Accessing elements
-// Given the following array 
-
-const randomThings = [1, 10, "Hello", true]
-
-// How do you access the 1st element in the array?
-// randomThings[0];
-
-// Change the value of "Hello" to "World".
-
-randomThings[2] = "World"
-
-console.log(randomThings[2]);
-// Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
-
-// D. Change values
-// Given the following array 
-
-const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
-
-// What would you write to access the 3rd element of the array?
-
-// ourClass[2];
-
-// Change the value of "Github" to "Octocat"
-ourClass[4] = 'Octocat';
-console.log(ourClass[4]);
-
-// Add a new element, "Cloud City" to the array.
-
-ourClass.push('Cloud City');
-
-console.log(ourClass);
-
-
-// E. Mix It Up
-// Given the following array: 
-
-const myArray = [5, 10, 500, 20]
-
-// Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
-myArray.push('Egon', 'Yes');
-console.log(myArray);
-// Remove the 5 from the beginning of the array.
-myArray.shift();
-console.log(myArray);
-
-// Add the string "Bob Marley" to the beginning of the array.
-myArray.unshift('Bob Marley');
-console.log(myArray);
-// Remove the string of your choise from the end of the array.
-myArray.pop();
-console.log(myArray);
-
-// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
-// yes it mutated it, mutating means changing or affecting , the .reverse reverses the array
-myArray.reverse();
-console.log(myArray);
+// console.log()s big number if the number is greater than or equal to 100.
