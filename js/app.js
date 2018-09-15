@@ -217,4 +217,19 @@ console.log(sum);
 // B. Easy Does It
 // Create an array that contains three quotes and store it in a variable called quotes.
 
-const quotes = ['guiness', 'coors', 'bud', 'odell', 'new belgium']
+const quotes = ['Get busy living or get busy dying', 'Where there is love there is life.', 'A joke is a very serious thing.']
+
+// C. Accessing elements
+// Given the following array 
+
+const randomThings = [1, 10, "Hello", true]
+
+// How do you access the 1st element in the array?
+// randomThings[0];
+
+// Change the value of "Hello" to "World".
+
+randomThings[2] = "World"
+
+console.log(randomThings[2]);
+// Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
