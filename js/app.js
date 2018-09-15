@@ -199,3 +199,17 @@ for ( let i = 0; i<=1000; i++) {
 }
 
 console.log(sum);
+
+
+// III. Arrays & Control flow
+
+// A. Talk about it:
+// What are the things in an array called?
+// elements
+
+// Do Arrays guarantee those things will be in order?
+// Kind of confusing the way this question is posed but elements have a defined index in the list
+// so yes it guarantees that the elements will be in a specific order
+
+// What real-life thing could you model with an array?
+// A menu could be an example of an array, you have a list of items on the menu
