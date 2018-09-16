@@ -412,3 +412,22 @@ const calculateCube = (num) => {
     return num*num*num;
 }
 console.log(calculateCube(5));
+
+
+// D. isVowel
+// Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+
+const isVowel = (char) => {
+    if (char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U' || char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u'  ) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(isVowel("A"));
+console.log(isVowel("i"));
+console.log(isVowel("z"));
+
+
+
