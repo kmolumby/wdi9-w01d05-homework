@@ -379,3 +379,15 @@ console.log(`Thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][
 
 thomsCloset[1][2] = 'footie pajamas';
 console.log(thomsCloset);
+
+
+// A. printGreeting
+// Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
+
+// Like so?
+
+
+const printGreeting = (name) => {
+    return `Hello there ${name}`;
+}
+console.log(printGreeting("Slimer"));
